@@ -4,7 +4,7 @@ pipeline{
         maven 'Maven'
     }
      environment {
-        JAVA_HOME = 'C:\Program Files\Java\jdk-17'  // Set the correct path to your JDK
+        JAVA_HOME = 'C:\\Program Files\\Java\\jdk-17'  
     }
     stages{
         stage('Build'){
